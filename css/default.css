@@ -10,22 +10,40 @@ table,td,th,tr {border-collapse:collapse; border-spacing:0;}
 input, select, textarea,button {font-family: arial, helvetica, sans-serif; font-weight:400; color: #000;}
 
 body{
-	font-family: arial, sans-serif;
-	color:#404040;
+	font-family: 'Ubuntu', sans-serif;
+	color:#fff;
 	font-size: 14px;
   line-height: 1.3;
   background-color: #421d72;
   margin: auto;
 }
-.container{
-  position: relative;
-	width: 1200px;
-  margin: auto;
- }
+.container-fluid{
+  text-align: left;
+  padding: 3% 15% 1%;
+  color: #45454d;
+}
 
-.logo{
-	float:left;
-  padding: 50px 0 0 50px;
+/* navigationbar */
+.navbar-brand{
+  padding: 0;
+  margin: 0;
+}
+.navbar-brand img{
+  height: 6rem;
+  background: transparent;
+}
+
+.navbar-toggler{
+  background: #45454d;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color:#fff;
+  font-family: 'Ubuntu', sans-serif;
+	font-size: 1.3rem;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+  color:#F7C610;
 }
 
 header{
@@ -33,37 +51,6 @@ header{
 	background: #593090 50% 0 no-repeat;
 	color:#fff;
 	margin: 0;
-}
-
-input{
-	display: inline-block;
-	padding: 7px 61px;
-	border-radius: 8px;
-	border: 1px solid #421d72;
-	text-decoration: none;
-	color: #421d72;
-	font-size: 15px;
-	background: #fff;
-	text-align: left;
-}
-
-input a{
-	display: inline-block;
-	padding: 5px 27px;
-	text-decoration: none;
-	font-weight: bold;
-	color:#593090;
-	font-size: 24px;
-}
-
-.sm{
-	margin: auto;
-}
-.cr{
-	color: #fff;
-	margin: 0;
-	padding: 0;
-	text-align: center
 }
 
 .copyright p{
@@ -75,17 +62,16 @@ input a{
 	margin:0;
 }
 
-.logout h1{
-	margin: 0px;
-	padding-top: 200px;
-	font-size: 20px;
+.logout-image{
+	padding: 0;
+	margin: 0;
 	text-align: center;
+
 }
 
-.logout img{
-	margin-top: 2%;
-	position: absolute;
-	margin-left: 28%;
+.logout-image img{
+	border-radius: 4%;
+	height: 25rem;
 }
 
 main-content{
@@ -103,3 +89,4 @@ main-content{
 form-buttons{
 	float: left;
 }
+
