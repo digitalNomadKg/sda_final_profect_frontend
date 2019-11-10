@@ -1,4 +1,4 @@
-@media(max-width:414px){
+@media(min-width:320px){
   .avatar {
     height: 12rem;
 }
@@ -26,4 +26,8 @@
 .card-signin .card-body {
   padding: 0rem;
 }
+.container-fluid {
+  padding: 11% 15% 1%;
 }
+}
+
