@@ -1,4 +1,4 @@
-@media(min-width:320px){
+@media(max-width:320px){
   .avatar {
     height: 12rem;
 }
@@ -26,8 +26,37 @@
 .card-signin .card-body {
   padding: 0rem;
 }
-.container-fluid {
-  padding: 11% 15% 1%;
 }
+
+@media(max-width:375px){
+  .welcome h1 {
+    word-spacing: 0px;
+    padding: 2rem;
+    font-size: 3rem;
+  
+  }
+  .avatar {
+    height: 12rem;
+  }
+
+.people p {
+  color: rgb(209, 208, 205);
+  font-size: 1rem;
+  text-align: justify;
+  line-height: 2rem;
+}
+
+.navbar-brand img {
+  height: 5rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+.card-signin .card-body {
+  padding: 0rem;
+}
+
 }
 
