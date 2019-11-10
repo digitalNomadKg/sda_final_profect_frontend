@@ -1,0 +1,29 @@
+@media(max-width:375px){
+  .avatar {
+    height: 12rem;
+}
+.people p {
+  color: rgb(209, 208, 205);
+  font-size: 1rem;
+  text-align: justify;
+  line-height: 2rem;
+}
+
+.welcome h1 {
+  word-spacing: 0px;
+  padding: 3rem;
+  font-size: 2.5rem;
+}
+
+.navbar-brand img {
+  height: 5rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+.card-signin .card-body {
+  padding: 0rem;
+}
+}
