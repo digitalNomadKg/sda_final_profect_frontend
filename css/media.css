@@ -29,6 +29,13 @@
 }
 
 @media(max-width:375px){
+  .container-fluid{
+      padding: 8% 15% 1%;
+  }
+
+  .header-welcome {
+    margin-top: 1.5rem;
+}
   .welcome h1 {
     word-spacing: 0px;
     padding: 2rem;
@@ -52,6 +59,7 @@
 .navbar-dark .navbar-nav .nav-link {
   font-size: 1.2rem;
   text-align: right;
+  text-transform: uppercase;
 }
 
 .card-signin .card-body {
@@ -60,5 +68,15 @@
 
 .display-4 {
   font-size: 2rem;
+}
+.card-signin .card-title {
+  margin-top: 2rem;
+}
 
+h1 {
+  font-size: 1.5rem;
+}
+.jumbotron{
+  margin-top: 3.3rem;
+}
 }

@@ -17,11 +17,18 @@ body{
   background-color: #421d72;
   margin: auto;
 }
+
+/* .container-fluid */
 .container-fluid{
-  text-align: left;
+  text-align: center;
   padding: 3% 15% 1%;
   color: #45454d;
 }
+
+.lead {
+	color:#F7C610;
+}
+
 
 /* navigationbar */
 .navbar-brand{
