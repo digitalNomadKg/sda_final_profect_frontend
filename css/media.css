@@ -30,7 +30,7 @@
 
 @media(max-width:375px){
   .container-fluid{
-      padding: 8% 15% 1%;
+      padding: 8% 9% 1%;
   }
 
   .header-welcome {
@@ -77,6 +77,6 @@ h1 {
   font-size: 1.5rem;
 }
 .jumbotron{
-  margin-top: 3.3rem;
+  margin-top: 2.3rem;
 }
 }
