@@ -1,0 +1,28 @@
+{
+  "name": "party_maker",
+  "version": "1.0.0",
+  "description": "Party Maker app modifitcation using node.js, express etc",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalNomadKg/sda_final_profect_frontend.git"
+  },
+  "keywords": [
+    "Party",
+    "Maker",
+    "web",
+    "applicaton"
+  ],
+  "author": "Tim Kirves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digitalNomadKg/sda_final_profect_frontend/issues"
+  },
+  "homepage": "https://github.com/digitalNomadKg/sda_final_profect_frontend#readme",
+  "dependencies": {
+    "express.js": "^1.0.0"
+  }
+}
